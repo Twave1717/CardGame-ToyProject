@@ -1,0 +1,23 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+button{
+    border: none;
+    padding: 0;
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    transition: all 0.2s ;
+}
