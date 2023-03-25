@@ -1,0 +1,101 @@
+/* gmae play page */
+
+/* dynamic */
+.flip-card{
+    transform: rotateY(180deg);
+}
+
+/* static */
+.center-title{
+    text-align: center;
+    padding: 50px 100px 50px 100px
+}
+
+.container-container{
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 160px);
+    gap: 10px;
+    align-items: stretch;
+    justify-items: stretch;
+}
+
+.item{
+    text-align: center;
+    text-justify: center;
+    border-radius: 5%;
+    background-color: gray;
+
+    transition: all 0.5s linear;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+button{
+    margin: 30px;
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    background-color: aliceblue;
+    color: #1e6b7b;
+}
+button:hover{
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+h2 {
+    position: relative;
+    padding: 1rem 0.5rem;
+    font-size: 35px; 
+}
+h2::after {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background-image: -webkit-linear-gradient(right, #00b0ff 0%, #00e676 100%);
+    background-image: linear-gradient(to left, #00b0ff 0%, #00e676 100%);
+}
+
+/* game-over page */
+
+.game-over-box{
+    display: none;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+.btn2-box{
+    display:flex;
+    justify-content: center;
+}
